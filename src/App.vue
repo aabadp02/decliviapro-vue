@@ -1,14 +1,18 @@
 <script setup lang="ts">
 
+import LoginPage from "./components/pages/LoginRegisterPage/LoginPage.vue";
+import RegisterPage from "./components/pages/LoginRegisterPage/RegisterPage.vue";
+
+let state = true;
+
 </script>
 
 <template>
-  <header>
-    <h1>Por fin está funcionando esto</h1>
-  </header>
+  <LoginPage></LoginPage>
 </template>
 
 <style scoped>
+
 header {
   line-height: 1.5;
 }
